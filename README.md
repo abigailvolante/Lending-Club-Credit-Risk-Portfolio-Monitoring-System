@@ -1,6 +1,8 @@
 # Lending Club Credit Risk Portfolio Monitoring System
 This project develops a credit risk analysis of the Lending Club loan dataset from Kaggle. The objective is to replicate a banking portfolio monitoring system that evaluates portfolio exposure, credit performance, delinquency risk, and loss distribution.
 
+Status: In progress. Adding Section 5 and 6.
+
 ## Objectives
 
 - Measure overall portfolio exposure and composition.
