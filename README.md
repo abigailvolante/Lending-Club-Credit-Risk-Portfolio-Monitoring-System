@@ -1,7 +1,7 @@
 # Lending Club Credit Risk Portfolio Monitoring System
 This project develops a credit risk analysis of the Lending Club loan dataset from Kaggle. The objective is to replicate a banking portfolio monitoring system that evaluates portfolio exposure, credit performance, delinquency risk, and loss distribution.
 
-This project was built as a learning exercise to deepen my SQL skills in a BigQuery environment, learn Power BI, and familiarise myself with core credit risk concepts such as exposure, delinquency, charge-offs, exposure at default that are central to portfolio monitoring in banking and lending.
+This project was built as a learning exercise to deepen my SQL skills in a BigQuery environment and familiarise myself with core credit risk concepts such as exposure, delinquency, charge-offs, exposure at default that are central to portfolio monitoring in banking and lending.
 
 Status: In progress. Currently adding query results for Sections 1–4, then starting Sections 5–6, which will connect Power BI directly to BigQuery. I'm still learning Power BI (via Microsoft's official training) as part of 
 this project.
@@ -94,4 +94,3 @@ Source: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 - Refactor the repeated grand-total + `CROSS JOIN` pattern (used for both grade and loan-status exposure) into a single reusable window-function version or parameterised view, to avoid duplicating the same CTE structure across sections.
 - Investigate the root cause of the low observed default rate more directly, e.g. by comparing the sample's loan-status distribution against the full Lending Club dataset.
 - Complete Sections 5 and 6.
-- Build out the Power BI dashboard referenced in the Objectives.
