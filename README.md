@@ -19,8 +19,8 @@ this project.
 ## Tools
 - Google BigQuery (data storage and SQL processing)
 - SQL (data transformation and analytical queries)
-- Power BI (interactive dashboarding and reporting)
 
+  
 ## Project Structure
  
 This project is organised into four sections:
