@@ -14,7 +14,6 @@ this project.
 - Monitor delinquency and early warning indicators.
 - Segment borrowers by risk characteristics.
 - Translate findings into actionable credit policy recommendations.
-- Build a Power BI dashboard for ongoing monitoring.
 
 ## Tools
 - Google BigQuery (data storage and SQL processing)
